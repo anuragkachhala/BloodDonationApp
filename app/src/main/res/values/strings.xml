@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BloodDonationApp</string>
+    <string name="reg_first_name">First Name</string>
+    <string name="reg_last_name">Last Name</string>
+    <string name="reg_email_id">Email ID</string>
+    <string name="reg_phone_no">Phone No</string>
+    <string name="reg_password">Enter Password</string>
+    <string name="reg_password_again">Confirm Password </string>
+    <string name="btn_registration">Registration</string>
+    <string name="reg_dob">Select DOB</string>
+    <string name="reg_location">Enter Location</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="keep_me_sign_in">Keep me sign in</string>
+    <string name="forgot_password"><u>forgot password?</u></string>
+
+    <string name="singup_text_signin">Don\'t have an Account? Sign up now</string>
+
+
+    <string name="heading_verification_code">Verification Code</string>
+    <string name="msg_enter_verification_code">Please type the verification code sent to </string>
+    <string name="resend_code">Resend Code</string>
+    <string name="msg_code_expire">OTP will be expire in</string>
+    <string name="keep_me_sign">Keep me sign in</string>
+
+
+    <string name="hint_country">India(+91)</string>
+    <string name="hint_phone_no">Your Phone Number</string>
+    <string name="msg_phone_no_authenticate">We will send you a One time pin for authenticate your number</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <string name="hint_mobile_no">Enter Mobile No.</string>
+    <string name="hint_password">Enter Password</string>
+
+    <string name="heading_select_gender">Select Gender</string>
+
+
+    <string name="heading_sign_up">SignUp</string>
+    <string name="heading_sing_in">SignIn</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_change_pass">Change Password</string>
+
+
+    <string name="err_msg_enter_phone_no">Please enter mobile no</string>
+    <string name="err_msg_enter_valid_mobile_no">Please enter valid mobile no</string>
+    <string name="err_msg_enter_password">Please enter password</string>
+    <string name="err_msg_enter_valid_pass">Password length should be min 8 digit</string>
+    <string name="err_msg_enter_first_name">Please enter first name</string>
+    <string name="err_msg_enter_last_name">Please enter last name</string>
+    <string name="err_msg_enter_conf_password">Please enter conf password</string>
+    <string name="err_msg_pass_match">password does not match</string>
+    <string name="err_msg_enter_dob">please select date of Birth</string>
+    <string name="err_msg_enter_email">Please enter email id</string>
+    <string name="err_msg_enter_valid_email">Please enter valid email id</string>
+
+
+
+
+
+
+</resources>

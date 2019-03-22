@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#8B0000</color>
+
+
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="colorEtBg">#FFFFFF</color>
+    <color name="colorEtTransparent">#00000000</color>
+
+    <color name="colorViewDarkGray">#aaa</color>
+
+    <color name="colorOtpTextColor">#c4e70b5f</color>
+    <color name="colorOTPTextMsg">#FFFFFF</color>
+
+    <color name="colorViewDarkGray1">#8eaaaaaa</color>
+
+
+    <color name="proceed_disable">#DEDEDE</color>
+    <color name="proceed_enable">#72D63A</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+</resources>

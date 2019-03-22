@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLocationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Address" />
+
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Location "
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:background="@drawable/location_bg"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:minHeight="120dp"
+            android:id="@+id/rlAddress"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:text=""
+                android:visibility="gone"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/tvEmpty"
+                android:text="Tap pick location to get your address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/rlAddress"
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#E1E1E1"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rlPickLocation"
+            android:layout_below="@id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:padding="@dimen/items_inbetween"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_pick"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/textView"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/items_inbetween"
+                    android:text="PICK LOCATION"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_get_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="GET ADDRESS"
+        />
+
+</RelativeLayout>

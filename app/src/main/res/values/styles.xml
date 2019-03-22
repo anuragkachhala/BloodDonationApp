@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+//10315
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/custom_et_bg</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:textSize">@dimen/editTextSize</item>
+        <item name="android:layout_marginBottom">@dimen/editTextMarginButton</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PhoneNoEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorEtTransparent</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">@dimen/editTextPhoneNumberSize</item>
+        <item name="android:padding">@dimen/editTextPhoneNumberPadding</item>
+        <item name="android:layout_marginTop">@dimen/editTextPhoneNumberMarginTop</item>
+    </style>
+
+    <style name="ImageViewButtonNext">
+       <!-- <item name="android:layout_centerHorizontal">true</item>-->
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/bg_circle</item>
+        <item name="android:src">@drawable/ic_next</item>
+    </style>
+
+    <style name="ImageViewPrevious">
+        <item name="android:layout_width">@dimen/homePreviousButtonWidth</item>
+        <item name="android:layout_height">@dimen/homePreviousButtonWidth</item>
+        <item name="android:layout_margin">@dimen/homePreviousButtonMargin</item>
+        <item name="android:src">@drawable/ic_previous</item>
+    </style>
+
+
+    <style name="TextViewOTP" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">@dimen/otp_view_width</item>
+        <item name="android:layout_height">@dimen/otp_view_height</item>
+        <item name="android:textSize">@dimen/otp_view_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/otp_view_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/otp_view_margin_right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/otp_back_ground</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="TextViewMsgOTP" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:textColor">@color/colorOTPTextMsg</item>
+    </style>
+
+
+
+    <style name="ButtonCustom" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:textSize">@dimen/button_login_reg_text_size</item>
+        <item name="android:background">@drawable/button_bg_fill</item>
+    </style>
+
+    <style name="signInSignUpView">
+        <item name="android:layout_width">@dimen/sign_up_sign_in_view_width</item>
+        <item name="android:layout_height">@dimen/sign_up_sign_in_view_height</item>
+        <item name="android:layout_marginBottom">@dimen/sign_up_sing_in_margin_bottom</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextViewSignInSignUp" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/sign_up_sign_in_text_size</item>
+    </style>
+
+
+    <!--CTA Button Style-->
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_cta_button</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="proceedButtonStyle">
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="tv_list_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="tv_list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/items_inbetween</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+
+    <style name="parent_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="layout_item">
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+</resources>

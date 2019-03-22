@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ImageViewButtonNext">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_circle</item>
+        <item name="android:src">@drawable/ic_next</item>
+        <item name="android:elevation">@dimen/buttonNextElevation</item>
+    </style>
+</resources>

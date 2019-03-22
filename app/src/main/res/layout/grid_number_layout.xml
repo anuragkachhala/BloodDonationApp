@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/grid_number_padding"
+        android:text="1"
+        android:textSize="@dimen/grid_number_button_size"
+        android:textStyle="italic"
+        android:textColor="@color/buttonTextColor"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

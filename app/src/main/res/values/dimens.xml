@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_horizontal_padding">16dp</dimen>
+    <dimen name="layout_vertical_padding">16dp</dimen>
+    <dimen name="layout_horizontal_margin">16dp</dimen>
+    <dimen name="layout_vertical_margin">16dp</dimen>
+    <dimen name="editTextSize">16dp</dimen>
+    <dimen name="editTextPadding">10dp</dimen>
+    <dimen name="editTextMarginButton">8dp</dimen>
+    <dimen name="editTextMarginTop">8dp</dimen>
+
+    <dimen name="tvFormLabelMarginTop">2dp</dimen>
+    <dimen name="tvFromLabelTextSize">14dp</dimen>
+    <dimen name="tvFromValueSize">14dp</dimen>
+    <dimen name="tvFromLabelMarginBottom">2dp</dimen>
+
+    <dimen name="tvLabelFormMarginTop">8dp</dimen>
+    <dimen name="tvLabelFormMarginBottom">8dp</dimen>
+    <dimen name="tvLabelFromTextSize">14dp</dimen>
+
+    <dimen name="etFormPadding">8dp</dimen>
+    <dimen name="etFormMarginTop">8dp</dimen>
+    <dimen name="etFormMarginBottom">8dp</dimen>
+
+
+    <dimen name="default_button_size">60dp</dimen>
+    <dimen name="default_delete_button_size">16dp</dimen>
+
+    <dimen name="editTextPhoneNumberSize">20sp</dimen>
+    <dimen name="editTextPhoneNumberPadding">10dp</dimen>
+    <dimen name="editTextPhoneNumberMarginTop">10dp</dimen>
+
+    <dimen name="viewHeight">1dp</dimen>
+
+    <dimen name="textViewMobileAuthMarginTop">16dp</dimen>
+
+    <dimen name="buttonNextElevation">5dp</dimen>
+    <dimen name="buttonNextMobileWidth">50dp</dimen>
+    <dimen name="buttonNextMobileHeight">50dp</dimen>
+    <dimen name="buttonNextMarginTop">16dp</dimen>
+    <dimen name="buttonNextMarginBottom">16dp</dimen>
+
+
+    <dimen name="homePreviousButtonHeight">50dp</dimen>
+    <dimen name="homePreviousButtonWidth">50dp</dimen>
+    <dimen name="homePreviousButtonMargin">8dp</dimen>
+
+
+    <dimen name="iconMobileAuthWidth">100dp</dimen>
+    <dimen name="iconMobileAuthHeight">100dp</dimen>
+
+    <dimen name="layoutMobileAuthMarginLeft">30dp</dimen>
+    <dimen name="layoutMobileAuthMarginRight">30dp</dimen>
+
+
+
+    <dimen name="otp_view_width">0dp</dimen>
+    <dimen name="otp_view_height">42dp</dimen>
+    <dimen name="otp_view_margin_left">5dp</dimen>
+    <dimen name="otp_view_margin_right">5dp</dimen>
+    <dimen name="otp_view_text_size">20sp</dimen>
+    <dimen name="otp_view_elevation">5dp</dimen>
+
+
+    <dimen name="buttonNextOTPHeight">70dp</dimen>
+    <dimen name="buttonNextOTPWidth">70dp</dimen>
+
+
+    <dimen name="verification_code_header_size">20sp</dimen>
+    <dimen name="verification_code_header_margin_Bottom">10dp</dimen>
+
+    <dimen name="msg_verification_code_text_size">16sp</dimen>
+    <dimen name="msg_verification_code_margin_left">16dp</dimen>
+    <dimen name="msg_verification_code_margin_right">16dp</dimen>
+    <dimen name="msg_verification_code_margin_bottom">10dp</dimen>
+
+
+    <dimen name="tv_count_down_size_margin_bottom">10dp</dimen>
+    <dimen name="tv_count_down_size_margin_top">16dp</dimen>
+    <dimen name="tv_count_down_size">16sp</dimen>
+    <dimen name="tv_count_down_size_margin_left">16dp</dimen>
+    <dimen name="tv_count_down_size_margin_right">16dp</dimen>
+
+    <dimen name="tv_resend_otp_size">20sp</dimen>
+    <dimen name="tv_resend_otp_size_margin_bottom">10dp</dimen>
+
+    <dimen name="custom_key_recycler_view_margin_left">16dp</dimen>
+    <dimen name="custom_key_recycler_view_margin_right">16dp</dimen>
+    <dimen name="custom_key_recycler_view_margin_bottom">16dp</dimen>
+
+    <dimen name="button_login_reg_text_size">16sp</dimen>
+
+
+    <dimen name="sign_up_sign_in_text_size">20dp</dimen>
+
+    <dimen name="grid_number_button_size">25sp</dimen>
+    <dimen name="grid_number_padding">16dp</dimen>
+
+    <dimen name="sign_up_sign_in_view_width">40dp</dimen>
+    <dimen name="sign_up_sign_in_view_height">4dp</dimen>
+    <dimen name="sign_up_sing_in_margin_bottom">30dp</dimen>
+
+
+
+    <dimen name="xsmall_text">10sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="large_text">16sp</dimen>
+    <dimen name="header_text">18sp</dimen>
+    <dimen name="nav_header_text">20sp</dimen>
+
+    <!-- Common sizes. -->
+
+    <dimen name="items_inbetween">8dp</dimen>
+    <dimen name="items_padding">4dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

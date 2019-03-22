@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Registration" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heading_sign_up"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sign_up_sign_in_text_size" />
+
+
+            <View
+                style="@style/signInSignUpView"
+                 />
+
+            <EditText
+                android:id="@+id/et_first_name"
+                style="@style/CustomEditText"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:hint="@string/reg_first_name"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                 />
+
+            <EditText
+                android:id="@+id/et_last_name"
+                style="@style/CustomEditText"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:hint="@string/reg_last_name"
+                android:inputType="textPersonName"
+                android:maxLength="20"/>
+
+            <EditText
+                android:id="@+id/et_applicant_email"
+                style="@style/CustomEditText"
+                android:hint="@string/reg_email_id"
+                android:inputType="textEmailAddress"
+                 />
+
+            <EditText
+                android:id="@+id/et_applicant_password"
+                style="@style/CustomEditText"
+                android:hint="@string/reg_password"
+                android:inputType="textPassword"
+                android:maxLength="10" />
+
+            <EditText
+                android:id="@+id/et_applicant_conf_password"
+                style="@style/CustomEditText"
+                android:hint="@string/reg_password_again"
+                android:inputType="textPassword"
+                android:maxLength="10" />
+
+
+
+            <TextView
+                android:id="@+id/et_applicant_dob"
+                style="@style/CustomEditText"
+                android:hint="@string/reg_dob"
+                 />
+
+
+            <TextView
+                android:id="@+id/et_location"
+                style="@style/CustomEditText"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:hint="@string/reg_location"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/editTextMarginButton"
+                android:background="@drawable/custom_et_bg"
+                android:padding="@dimen/editTextPadding">
+
+
+                <Spinner
+                    android:id="@+id/sp_blood_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/list_blood_group"
+                    android:spinnerMode="dialog" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/heading_select_gender"
+                android:textSize="16sp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioSex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:checked="true"
+                    android:text="@string/radio_male" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_female" />
+
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btn_register"
+                style="@style/ButtonCustom"
+                android:elevation="5dp"
+                android:text="@string/btn_registration"
+                android:layout_marginBottom="16dp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
